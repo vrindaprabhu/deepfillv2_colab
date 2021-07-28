@@ -1,5 +1,7 @@
+import torch
+
 # GENERIC
-GPU_DEVICE = "cpu"
+GPU_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 INIMAGE = "./input/input_img.png"
 MASKIMAGE = "./input/mask.png"
 OUTIMAGE = "./output/inpainted_img.png"
