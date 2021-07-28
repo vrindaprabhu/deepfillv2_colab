@@ -13,8 +13,6 @@ from config import *
 from deepfillv2 import test_dataset
 from deepfillv2 import utils
 
-import ray
-
 
 def WGAN_tester():
 
