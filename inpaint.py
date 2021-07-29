@@ -13,6 +13,8 @@ from config import *
 from deepfillv2 import test_dataset
 from deepfillv2 import utils
 
+import ray
+
 
 def WGAN_tester():
 
@@ -42,6 +44,8 @@ def WGAN_tester():
         norm=NORM,
         init_type=INIT_TYPE,
         init_gain=INIT_GAIN,
+        use_cuda=CUDA,
+        gpu_device=GPU_DEVICE,
     )
     generator = utils.create_generator(opt).eval()
     print("-- INPAINT: Loading Pretrained Model --")
