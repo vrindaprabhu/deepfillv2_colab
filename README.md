@@ -21,6 +21,8 @@ Colab code for image inpainting. The repository is based out of [DeepFillv2 Pyto
 
 ```
 
+Make sue to change `runtime` in colab to GPU for quick results!
+
 **NOTE**
 
 - The inpainting is being done after resizing the image to 512x512. This can be changed in the RESIZE_TO parameter in the _config.py_ file.
