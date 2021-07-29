@@ -110,10 +110,7 @@ def save_sample_png(
         img = img * 255
         # Process img_copy and do not destroy the data of img
         img_copy = (
-            img.clone()
-            .data.permute(0, 2, 3, 1)[0, :, :, :]
-            .to(GPU_DEVICE)
-            .numpy()
+            img.clone().data.permute(0, 2, 3, 1)[0, :, :, :].to("cpu").numpy()
         )
         img_copy = np.clip(img_copy, 0, pixel_max_cnt)
         img_copy = img_copy.astype(np.uint8)

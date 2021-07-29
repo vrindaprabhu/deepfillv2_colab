@@ -407,7 +407,7 @@ class ContextualAttention(nn.Module):
         self.fuse_k = fuse_k
         self.softmax_scale = softmax_scale
         self.fuse = fuse
-        self.use_cuda = False  # use_cuda
+        self.use_cuda = use_cuda
         self.device_ids = device_ids
 
     def forward(self, f, b, mask=None):
