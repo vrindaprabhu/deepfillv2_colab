@@ -2,8 +2,8 @@
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vrindaprabhu/deepfillv2_colab/blob/main/DeepFillv2_Colab.ipynb)
 
-Colab code for image inpainting. The repository is based out of [DeepFillv2 Pytorch Repo](https://github.com/csqiangwen/DeepFillv2_Pytorch) awesome implementation. 
-[Original Paper](https://arxiv.org/abs/1806.03589)
+Colab code for image inpainting. The repository is based out of [DeepFillv2 Pytorch](https://github.com/csqiangwen/DeepFillv2_Pytorch) awesome implementation. 
+Link to the [Original Paper](https://arxiv.org/abs/1806.03589)
 
 
 ```
@@ -23,7 +23,7 @@ Colab code for image inpainting. The repository is based out of [DeepFillv2 Pyto
 
 ```
 
-Make sue to change `runtime` in colab to GPU for quick results!
+Make sure to change `runtime` in colab to GPU for quick results!
 
 **NOTE**
 
