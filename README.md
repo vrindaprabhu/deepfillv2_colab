@@ -23,8 +23,8 @@ Colab code for image inpainting. The repository is based out of [DeepFillv2 Pyto
 
 **NOTE**
 
-- The current colab code **DOES NOT** run on GPU. Has to be updated.
 - The inpainting is being done after resizing the image to 512x512. This can be changed in the RESIZE_TO parameter in the _config.py_ file.
+- This repo has not been tested for training. Inference works fine.
 
 Check it out! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vrindaprabhu/deepfillv2_colab/blob/main/DeepFillv2_Colab.ipynb)
 
