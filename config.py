@@ -1,13 +1,12 @@
 import torch
 
 # GENERIC
-# GPU_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-GPU_DEVICE = "cpu"
+GPU_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 INIMAGE = "./input/input_img.png"
 MASKIMAGE = "./input/mask.png"
 OUTIMAGE = "./output/inpainted_img.png"
 RESIZE_TO = (512, 512)
-CUDA = False
+CUDA = True if torch.cuda.is_available() else False
 
 # DEEPFILLv2
 DEEPFILL_MODEL_PATH = "./model/deepfillv2_WGAN.pth"
