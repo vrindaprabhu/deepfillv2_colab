@@ -1,6 +1,8 @@
 # **DEEPFILL-V2 DEMONSTRATION**
 
-Colab code for image inpainting. The repository is based out of [DeepFillv2 Pytorch Repo](https://github.com/csqiangwen/DeepFillv2_Pytorch) awesome implementation.
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vrindaprabhu/deepfillv2_colab/blob/main/DeepFillv2_Colab.ipynb)
+
+Colab code for image inpainting. The repository is based out of [DeepFillv2 Pytorch Repo](https://github.com/csqiangwen/DeepFillv2_Pytorch) awesome implementation. 
 [Original Paper](https://arxiv.org/abs/1806.03589)
 
 
@@ -29,5 +31,5 @@ Make sue to change `runtime` in colab to GPU for quick results!
 - An example of an image and corresponding mask is present in the _example_ folder of the repo. The notebook also allows generation of random masks. The uploaded image and the masks will be present in the _input_ folder.
 - This repo has not been tested for training. Inference works fine.
 
-Check it out! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vrindaprabhu/deepfillv2_colab/blob/main/DeepFillv2_Colab.ipynb)
+Check it out and let me know if any issues!
 
